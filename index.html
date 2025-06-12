@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>株式会社Life Innovation</title>
+
+    <!-- Font AwesomeのCDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        /* 基本設定 */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #2c3e50;
+        }
+        header p {
+            font-size: 1.1em;
+            color: #7f8c8d;
+        }
+        nav {
+            text-align: center;
+            background-color: #3498db;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ecf0f1;
+        }
+        .container {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #3498db;
+        }
+        .service-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .service-item i {
+            font-size: 40px;
+            color: #3498db;
+            margin-right: 20px;
+        }
+        footer {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+            margin-top: 40px;
+        }
+        footer p {
+            font-size: 1.1em;
+            color: #7f8c8d;
+        }
+        .contact-form {
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .contact-form button:hover {
+            background-color: #2980b9;
+        }
+        @media (max-width: 768px) {
+            nav a {
+                font-size: 1em;
+            }
+            .service-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>株式会社Life Innovation</h1>
+        <p>テクノロジーで私たちの生活に革新を。より良い世の中を目指して</p>
+    </header>
+
+    <nav>
+        <a href="#about">会社概要</a>
+        <a href="#services">サービス</a>
+        <a href="#jobs">求人情報</a>
+        <a href="#contact">お問い合わせ</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about">
+            <h2 class="section-title">会社概要</h2>
+            <p>私たちは、テクノロジーやサービスを活用し、私たちの生活(Life)に革新(Innovation)を起こすことで、より良い世の中を目指します。</p>
+            <p><strong>設立年:</strong> 2020年</p>
+            <p><strong>所在地:</strong> 東京都練馬区下石神井1-14-41</p>
+            <p><strong>連絡先:</strong> <a href="mailto:lifeinnovation2020.inc@gmail.com">lifeinnovation2020.inc@gmail.com</a></p>
+        </section>
+
+        <section id="services">
+            <h2 class="section-title">サービス</h2>
+            <div class="service-item">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                    <h3>テレアポ代行</h3>
+                    <p>テレアポ業務をお客様に代わって代行します。</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-credit-card"></i>
+                <div>
+                    <h3>店舗向けキャッシュレス決済サービス</h3>
+                    <p>店舗向けに、キャッシュレス決済を提供します。</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-lightbulb"></i>
+                <div>
+                    <h3>店舗向け光熱費削減サービス</h3>
+                    <p>店舗の光熱費を削減するサービスです。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jobs">
+            <h2 class="section-title">求人情報</h2>
+            <p><strong>職種:</strong> テレフォンアポインター</p>
+            <p><strong>時給:</strong> 1200円～</p>
+            <p><strong>勤務形態:</strong> リモートワークあり</p>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">お問い合わせ</h2>
+            <p>ご質問やお問い合わせがある場合は、以下のフォームからご連絡ください。</p>
+            <div class="contact-form">
+                <form id="contactForm" action="mailto:lifeinnovation2020.inc@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="お名前" required>
+                    <input type="email" name="email" placeholder="メールアドレス" required>
+                    <textarea name="message" placeholder="メッセージ" required></textarea>
+                    <button type="submit">送信</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 株式会社Life Innovation. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // フォームのバリデーション
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            const name = document.querySelector('input[name="name"]').value;
+            const email = document.querySelector('input[name="email"]').value;
+            const message = document.querySelector('textarea[name="message"]').value;
+
+            if (!name || !email || !message) {
+                alert("すべてのフィールドを入力してください。");
+                event.preventDefault();
+            }
+        });
+    </script>
+
+</body>
+</html>
